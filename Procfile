@@ -1,2 +1,3 @@
-release: python app:app migrate
+
 web: gunicorn app:app
+release: gunicorn app.py migrate
