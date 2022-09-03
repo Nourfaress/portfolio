@@ -1,3 +1,1 @@
-
-web: gunicorn app:app
-release: gunicorn app.py migrate
+web: gunicorn run:app
