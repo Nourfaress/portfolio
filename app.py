@@ -24,4 +24,4 @@ def projects():
 
 if __name__ == '__main__':
     app.secret_key='secret1234'
-    app.run(app.run(host='0.0.0.0', debug=True, port=5000))
+    app.run(app.run debug=True)
