@@ -1,0 +1,89 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container">
+  <div class="box-1">
+    <h1>Welcome To My Portfolio</h1>
+    <h2>Hi, my name is</h2>
+    <h1> Nour Fares </h1>
+    <h4></h4>
+    <h5><span class="multiText"></span></h5>
+    <h2>I'm a joiner full stack developer, I am always looking to develop my skills and keep pace with the labor market at present. I have a few projects, but I am working on this topic, as I have enough passion for this field. Also, I have good knowledge with experience in the graphic design field such as photoshop and illustrator.
+    </h2>
+    <div class="buttons">
+      <a href="/projects" class="btn btn-1">Browse Projects</a>
+      
+      <a href="/data/MYRESUME.PDF" class="btn btn-2" download="NourFaresResume.pdf">Download My Resume</a>
+      
+    </div>
+    
+    {% if session.logged_in == NULL %}
+
+    {% endif %}
+
+        <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <i class="fa-solid fa-code fa-3x fa-flip" style="--fa-animation-duration: 10s;"></i>
+            <h3>Front End</h3>
+            HTML5
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-gears fa-spin fa-3x" style="--fa-animation-duration: 10s;"></i>
+            <h3>Back end</h3>
+            Python, Flask
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-list-check fa-3x fa-beat" style="--fa-animation-duration: 2s;"></i>
+            <h3>Next Steps</h3>
+            NODE.JS
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col">
+            CSS3
+          </div>
+          <div class="col">
+            Ruby On Rails
+          </div>
+          <div class="col">
+            ANGULAR
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col">
+            JavaScript
+          </div>
+          <div class="col">
+            MySQL, MARIA DB
+          </div>
+          <div class="col">
+            MONGO DB, REDIS
+          </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col">
+              Bootstrap
+            </div>
+            <div class="col">
+              PIP, RubyGems
+            </div>
+            <div class="col">
+              NPM
+            </div>
+          </div>
+      </div>
+
+
+<div class="icon">
+  <i class="fa-brands fa-html5 fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-brands fa-css3-alt fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-brands fa-square-js fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-brands fa-bootstrap fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-brands fa-python fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-solid fa-database fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fa-brands fa-square-github fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fab fa-angular fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+  <i class="fab fa-node-js fa-5x fa-beat-fade" style="--fa-beat-fade-opacity: 2.67; --fa-beat-fade-scale: 1.075;"></i>
+</div>
+{% endblock %}

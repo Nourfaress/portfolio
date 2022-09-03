@@ -1,0 +1,328 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+    text-align: center;   
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.box-1 h5 {
+    display: block;
+    font-size: 5em;
+    font-weight:500;
+    color: rgb(140, 203, 242);
+}
+
+.multiText{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.buttons {
+    display:-webkit-inline-flex;
+    flex-direction: column;
+} 
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 15px;
+}
+
+.btn-1 {
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-1::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #27d86c 0%,
+        #26caf8 50%,
+        #c625d0 100%
+    );
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+.btn-1:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+.btn-1:hover::after {
+    transform: rotate(90deg);
+}
+
+.btn-2 {
+    overflow: hidden;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-2::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #27d86c 0%,
+        #26caf8 50%,
+        #c625d0 100%
+    );
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+.btn-2:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+.btn-2:hover::after {
+    transform: rotate(90deg);
+}
+
+
+
+
+.box-1 h3{
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}
+
+
+.box-1 {
+    margin-bottom: 2em;
+}
+
+.container h3:hover{
+    color: #ffffff;
+    column-gap: 3em;
+    font-weight: 900;
+    font-size: 1.75em;
+}
+
+.icon {
+    margin: 5em;
+
+}
+.icon i{
+    margin-left: 0.25em;
+    margin-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.contact {
+    
+    margin-left: 0.25em;
+    margin-top: 3em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+}
+.contact a:first-child:hover{
+    color: rgb(255, 255, 255);
+}
+.contact a:last-child:hover{
+    color: #0e76a8;
+}
+.contact a:nth-child(2):hover{
+    color: #1DA1F2;
+}
+.contact a:nth-child(3):hover{
+    color: #25d366;
+}
+.contact a:nth-child(4):hover{
+    color: #053eff;
+}
+.col i{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.col h3{
+    margin-bottom: 0.5em;
+}
+
+footer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin-block: auto;
+}
+.footerc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footerc h6{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footerc p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.social a i{
+    font-size: 2rem;
+
+}
+.social li:first-child:hover i{
+    color: #1DA1F2;
+}
+.social li:last-child:hover i{
+    color: #0e76a8;
+}
+
+.social li:nth-child(2):hover i{
+    color: #ffffff;
+}
+.offcanvas-body p{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-top: 3em;
+}
+
+.card-group{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.card-img-top{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.card-body h5{
+    color: black;
+    font-size: large;
+
+}
+.card-body p{
+    color: rgb(164, 11, 11);
+    font-size: large;
+    font-weight: 400;
+}
+.card-body a{
+    font-size: small;
+    margin-bottom: 2em;
+    color: black;
+}
+.btn-3 {
+    overflow: hidden;
+    color: rgb(84, 12, 228);
+    border-radius: 20px;
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-3::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #27d86c 0%,
+        #26caf8 50%,
+        #c625d0 100%
+    );
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+.btn-3:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+.btn-3:hover::after {
+    transform: rotate(90deg);
+}
+.container1{
+    margin: 10em;
+}
+.aboutme h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: medium;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.aboutme h5{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: medium;
+    font-style: italic;
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display:grid;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+    margin-block-end: auto;
+}
+
+.goto h1{
+    margin: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.goto a i{
+    color: #fff;
+}

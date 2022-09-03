@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container1">
+    <div class="aboutme">
+        <h3>Junior full stack developer with a passion for learning new technologies and working with teams to create user-friendly web applications. one year of experience in web development, including front-end and back-end technologies. Eager to develop skills in a fast-paced environment and contribute to the success of a company.</h3>
+    
+        <h5>
+        contact me with anyway you like 
+        </h5>
+    </div>
+
+
+    <form class="my-form">
+    <div class="form-group">
+        <label>Name:</label>
+        <input type="text" name="name">
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        <input type="text" name="email">
+    </div>
+    <div class="form-group">
+        <label>Message:</label>
+        <textarea name="message"></textarea>
+    </div>
+    <input  class="btn btn-1" type="submit" value="Submit" name="">
+    </form>
+</div>
+
+
+
+
+    {% if session.logged_in == NULL %}
+
+    {% endif %}
+
+{% endblock %}

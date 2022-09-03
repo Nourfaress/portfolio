@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    {% include 'includes/_navbar.html' %}
+    {% block body %}{% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typingEffects = new Typed(".multiText",{
+      strings : ["full stack developer..", "designer.."],
+      loop : true,
+      typeSpeed : 150,
+      backSpeed : 80,
+      backDelay : 2000
+      });
+    </script>
+    <script src="https://kit.fontawesome.com/cfb834d9a9.js" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    {% include 'includes/_footer.html' %}
+  </footer>
+</html>
+
+
+
+
